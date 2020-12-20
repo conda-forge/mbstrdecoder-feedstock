@@ -5,11 +5,11 @@ Home: https://github.com/thombashi/mbstrdecoder
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mbstrdecoder-feedstock/blob/master/LICENSE.txt)
 
 Summary: multi-byte character string decoder
 
-
+Development: https://github.com/thombashi/mbstrdecoder
 
 Current build status
 ====================
