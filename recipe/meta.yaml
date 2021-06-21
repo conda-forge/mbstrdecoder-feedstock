@@ -11,7 +11,7 @@ source:
   sha256: f895e1fb97496855ab5e43de99588787169c01f782c71625142d1a62729e9f9d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,7 +21,7 @@ requirements:
     - python >=3.5
     - releasecmd
   run:
-    - chardet >=3.0.4,<4
+    - chardet >=3.0.4,<5
     - python >=3.5
 
 test:
