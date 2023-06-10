@@ -1,5 +1,5 @@
 {% set name = "mbstrdecoder" %}
-{% set version = "1.1.2" %}
+{% set version = "1.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c3a258e5e00192281eb774c00637f68d2d460854cea0c5c820aa241732aa0b51
+  sha256: dcfd2c759322eb44fe193a9e0b1b86c5b87f3ec5ea8e1bb43b3e9ae423f1e8fe
 
 build:
   number: 0
