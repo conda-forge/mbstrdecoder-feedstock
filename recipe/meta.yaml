@@ -11,7 +11,7 @@ source:
   sha256: 8105ef9cf6b7d7d69fe7fd6b68a2d8f281ca9b365d7a9b670be376b2e6c81b21
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,6 +19,8 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools >=64
+    - setuptools-scm >=8
     - releasecmd
   run:
     - chardet >=3.0.4,<6
